@@ -1,0 +1,2 @@
+include 'desktop', 'android', 'core', 'spine-o2d-extension', 'spine-runtime-libgdx'
+project(':spine-o2d-extension').projectDir = new File(settingsDir, 'spine-o2d-extension')

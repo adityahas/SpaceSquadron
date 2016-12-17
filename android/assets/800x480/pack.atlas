@@ -1,0 +1,105 @@
+
+pack.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 156
+  size: 200, 334
+  orig: 200, 334
+  offset: 0, 0
+  index: -1
+dialog
+  rotate: false
+  xy: 2, 2
+  size: 162, 82
+  orig: 162, 82
+  offset: 0, 0
+  index: -1
+emptyBtn
+  rotate: false
+  xy: 280, 342
+  size: 83, 26
+  split: 5, 5, 4, 4
+  orig: 83, 26
+  offset: 0, 0
+  index: -1
+gmOver
+  rotate: false
+  xy: 280, 370
+  size: 133, 31
+  orig: 133, 31
+  offset: 0, 0
+  index: -1
+help
+  rotate: false
+  xy: 204, 205
+  size: 62, 61
+  orig: 62, 61
+  offset: 0, 0
+  index: -1
+land
+  rotate: false
+  xy: 2, 86
+  size: 200, 68
+  orig: 200, 68
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 280, 443
+  size: 159, 47
+  orig: 159, 47
+  offset: 0, 0
+  index: -1
+medal1
+  rotate: false
+  xy: 166, 52
+  size: 17, 32
+  orig: 17, 32
+  offset: 0, 0
+  index: -1
+medal2
+  rotate: false
+  xy: 441, 458
+  size: 17, 32
+  orig: 17, 32
+  offset: 0, 0
+  index: -1
+medal3
+  rotate: false
+  xy: 414, 410
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+medal5
+  rotate: false
+  xy: 204, 173
+  size: 17, 30
+  orig: 17, 30
+  offset: 0, 0
+  index: -1
+pipe
+  rotate: false
+  xy: 204, 268
+  size: 36, 222
+  orig: 36, 222
+  offset: 0, 0
+  index: -1
+pipeUp
+  rotate: false
+  xy: 242, 268
+  size: 36, 222
+  orig: 36, 222
+  offset: 0, 0
+  index: -1
+ready
+  rotate: false
+  xy: 280, 403
+  size: 132, 38
+  orig: 132, 38
+  offset: 0, 0
+  index: -1
