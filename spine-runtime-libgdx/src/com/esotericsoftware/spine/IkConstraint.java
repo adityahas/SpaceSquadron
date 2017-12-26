@@ -30,9 +30,13 @@
 
 package com.esotericsoftware.spine;
 
-import static com.badlogic.gdx.math.MathUtils.*;
-
 import com.badlogic.gdx.utils.Array;
+
+import static com.badlogic.gdx.math.MathUtils.PI;
+import static com.badlogic.gdx.math.MathUtils.atan2;
+import static com.badlogic.gdx.math.MathUtils.cos;
+import static com.badlogic.gdx.math.MathUtils.radDeg;
+import static com.badlogic.gdx.math.MathUtils.sin;
 
 public class IkConstraint implements Updatable {
 	final IkConstraintData data;

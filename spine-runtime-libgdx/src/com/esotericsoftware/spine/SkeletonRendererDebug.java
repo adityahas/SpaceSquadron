@@ -30,8 +30,6 @@
 
 package com.esotericsoftware.spine;
 
-import static com.badlogic.gdx.graphics.g2d.Batch.*;
-
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
@@ -44,6 +42,15 @@ import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
 import com.esotericsoftware.spine.attachments.MeshAttachment;
 import com.esotericsoftware.spine.attachments.PathAttachment;
 import com.esotericsoftware.spine.attachments.RegionAttachment;
+
+import static com.badlogic.gdx.graphics.g2d.Batch.X1;
+import static com.badlogic.gdx.graphics.g2d.Batch.X2;
+import static com.badlogic.gdx.graphics.g2d.Batch.X3;
+import static com.badlogic.gdx.graphics.g2d.Batch.X4;
+import static com.badlogic.gdx.graphics.g2d.Batch.Y1;
+import static com.badlogic.gdx.graphics.g2d.Batch.Y2;
+import static com.badlogic.gdx.graphics.g2d.Batch.Y3;
+import static com.badlogic.gdx.graphics.g2d.Batch.Y4;
 
 public class SkeletonRendererDebug {
 	static private final Color boneLineColor = Color.RED;

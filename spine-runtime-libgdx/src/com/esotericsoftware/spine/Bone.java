@@ -30,12 +30,23 @@
 
 package com.esotericsoftware.spine;
 
-import static com.badlogic.gdx.math.MathUtils.*;
-import static com.badlogic.gdx.math.Matrix3.*;
-
 import com.badlogic.gdx.math.Matrix3;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
+
+import static com.badlogic.gdx.math.MathUtils.atan2;
+import static com.badlogic.gdx.math.MathUtils.cosDeg;
+import static com.badlogic.gdx.math.MathUtils.radDeg;
+import static com.badlogic.gdx.math.MathUtils.sinDeg;
+import static com.badlogic.gdx.math.Matrix3.M00;
+import static com.badlogic.gdx.math.Matrix3.M01;
+import static com.badlogic.gdx.math.Matrix3.M02;
+import static com.badlogic.gdx.math.Matrix3.M10;
+import static com.badlogic.gdx.math.Matrix3.M11;
+import static com.badlogic.gdx.math.Matrix3.M12;
+import static com.badlogic.gdx.math.Matrix3.M20;
+import static com.badlogic.gdx.math.Matrix3.M21;
+import static com.badlogic.gdx.math.Matrix3.M22;
 
 public class Bone implements Updatable {
 	final BoneData data;

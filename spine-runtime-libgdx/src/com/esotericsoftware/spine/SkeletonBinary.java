@@ -30,9 +30,6 @@
 
 package com.esotericsoftware.spine;
 
-import java.io.EOFException;
-import java.io.IOException;
-
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
@@ -70,6 +67,9 @@ import com.esotericsoftware.spine.attachments.MeshAttachment;
 import com.esotericsoftware.spine.attachments.PathAttachment;
 import com.esotericsoftware.spine.attachments.RegionAttachment;
 import com.esotericsoftware.spine.attachments.VertexAttachment;
+
+import java.io.EOFException;
+import java.io.IOException;
 
 public class SkeletonBinary {
 	static public final int BONE_ROTATE = 0;

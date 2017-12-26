@@ -30,8 +30,6 @@
 
 package com.esotericsoftware.spine;
 
-import static com.badlogic.gdx.math.MathUtils.*;
-
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
 import com.esotericsoftware.spine.PathConstraintData.PositionMode;
@@ -39,6 +37,13 @@ import com.esotericsoftware.spine.PathConstraintData.RotateMode;
 import com.esotericsoftware.spine.PathConstraintData.SpacingMode;
 import com.esotericsoftware.spine.attachments.Attachment;
 import com.esotericsoftware.spine.attachments.PathAttachment;
+
+import static com.badlogic.gdx.math.MathUtils.PI;
+import static com.badlogic.gdx.math.MathUtils.PI2;
+import static com.badlogic.gdx.math.MathUtils.atan2;
+import static com.badlogic.gdx.math.MathUtils.cos;
+import static com.badlogic.gdx.math.MathUtils.degRad;
+import static com.badlogic.gdx.math.MathUtils.sin;
 
 public class PathConstraint implements Updatable {
 	static private final int NONE = -1, BEFORE = -2, AFTER = -3;

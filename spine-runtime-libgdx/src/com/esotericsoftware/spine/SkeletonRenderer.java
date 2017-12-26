@@ -33,9 +33,9 @@ package com.esotericsoftware.spine;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.utils.Array;
 import com.esotericsoftware.spine.attachments.Attachment;
+import com.esotericsoftware.spine.attachments.MeshAttachment;
 import com.esotericsoftware.spine.attachments.RegionAttachment;
 import com.esotericsoftware.spine.attachments.SkeletonAttachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
 
 public class SkeletonRenderer<T extends Batch> {
 	boolean premultipliedAlpha;

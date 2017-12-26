@@ -30,13 +30,13 @@
 
 package com.esotericsoftware.spine;
 
-import java.util.Iterator;
-
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ObjectMap;
 import com.badlogic.gdx.utils.ObjectMap.Entry;
 import com.badlogic.gdx.utils.Pool;
 import com.esotericsoftware.spine.attachments.Attachment;
+
+import java.util.Iterator;
 
 /** Stores attachments by slot index and attachment name. */
 public class Skin {

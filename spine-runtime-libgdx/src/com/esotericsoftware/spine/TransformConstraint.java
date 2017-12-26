@@ -30,10 +30,15 @@
 
 package com.esotericsoftware.spine;
 
-import static com.badlogic.gdx.math.MathUtils.*;
-
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
+
+import static com.badlogic.gdx.math.MathUtils.PI;
+import static com.badlogic.gdx.math.MathUtils.PI2;
+import static com.badlogic.gdx.math.MathUtils.atan2;
+import static com.badlogic.gdx.math.MathUtils.cos;
+import static com.badlogic.gdx.math.MathUtils.degRad;
+import static com.badlogic.gdx.math.MathUtils.sin;
 
 public class TransformConstraint implements Updatable {
 	final TransformConstraintData data;
